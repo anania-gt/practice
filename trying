@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -c try_put.c -o ./cisfun
