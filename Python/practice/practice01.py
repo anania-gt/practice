@@ -1,7 +1,5 @@
-# Ask the user to input their name and asign it to a variable named name
+import sys
 
-name = input('what is your name ')
-
-# print out hello followed by the nemw they entered
-
-print(f'hello {name}')
+print("This is the name of the script:", sys.argv[0])
+print("Number of arguments:", len(sys.argv))
+print("The arguments are:", str(sys.argv))
