@@ -28,6 +28,18 @@ class Rectangle:
             raise ValueError("height must be positive")
         self.__height = value
 
+    
+    def area(self):
+        return self.__height*self.__width
+    
+    def perimeter(self):
+        if self.__height == 0 or self.__width == 0:
+            return 0
+        return 2*(self.__height*self.__width)
+    
+
 r=Rectangle(3,5)
 print(r.height)
 print(r.width)
+print(r.area())
+print(r.perimeter())
