@@ -14,3 +14,6 @@ def add(a, b):
 if __name__ == "__main__":
     import doctest
     doctest.testmod(verbose=True)
+"""
+we add verbose = True to get feedback
+"""
